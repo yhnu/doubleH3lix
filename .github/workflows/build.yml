@@ -16,7 +16,5 @@ jobs:
       - name: Build
         run:
           ls
-          cd doubleH3lix
-          make
         env: 
          destination: ${{ matrix.destination }}
