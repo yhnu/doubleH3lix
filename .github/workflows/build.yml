@@ -14,7 +14,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@master
       - name: Build
-        run: |
+        run:
+          ls
           cd doubleH3lix
           make
         env: 
